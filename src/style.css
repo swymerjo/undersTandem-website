@@ -1,5 +1,6 @@
 :root {
-    --primary-color: #FBB753;
+    --primary-color: #6DDAE2;
+    --secondary-color: #ED5563;
 }
 html h1, h3, p , .top-links{
     font-family: 'Azeret Mono', monospace;
@@ -13,7 +14,8 @@ p {
     padding: 5px;
 }
 .background-highlight {
-    background: #EEEFF1;
+    background: #ee8d96;
+    
 }
 
 .container {
@@ -22,12 +24,25 @@ p {
     border-radius: 4px;
     padding: 50px;
 }
-.emoji-main {
-    font-size: 70px;
-    border: solid 4px var(--primary-color);
+.container-2 {
+    padding-left: 20%;
+    padding-right: 20%;
     border-radius: 4px;
-    padding: 22px;
 }
+.about-image {
+  margin-left:20px;
+  background: #EEEFF1;
+  padding:20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.homepage-image {
+        border: solid 2px white;
+        border-radius: 4px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 .learn-more-link {
     color: var(--primary-color);
     font-weight: bold;
@@ -39,14 +54,30 @@ p {
 }
 .learn-more-link:hover {
     cursor: pointer;
-    color: #f09916;
+    color: #09bdca;
+}
+.learn-more-link-about {
+    color: var(--secondary-color);
+    font-weight: bold;
+    border: solid 2px white;
+    border-radius: 4px;
+    padding: 6px;
+    padding-right: 15px;
+    padding-left: 15px;
 }
 .footer-name{
-    color: #EF5F9A;
+    color: var(--secondary-color);
 }
 
 .footer-link {
     color: #6DDAE2;
+}
+.footer-name:hover{
+    color: #ce2a3b;
+}
+
+.footer-link:hover {
+    color: #09bdca;
 }
 .top-links-wrap {
     margin-left: 50px;
@@ -54,9 +85,10 @@ p {
 }
 .top-links {
     color: black;
+    padding:10px;
 }
 .top-links:hover {
-    color:var(--primary-color);
+    color:#ee8d96;
 }
 
 
@@ -64,6 +96,7 @@ p {
     h3 {
         padding-top: 20px;
     }
+
     body {
         padding: 8px;
     }
@@ -72,6 +105,11 @@ p {
         margin: 0 auto;
         text-align: center;
     }
+    .contact-link {
+        font-size: 10pt;
+
+    }
+    
 
 }
 
