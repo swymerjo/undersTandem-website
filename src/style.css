@@ -42,8 +42,19 @@ p {
 .footer-name{
     color: #EF5F9A;
 }
+
 .footer-link {
     color: #6DDAE2;
+}
+.top-links-wrap {
+    margin-left: 50px;
+    background: #EEEFF1;
+}
+.top-links {
+    color: black;
+}
+.top-links:hover {
+    color:#FBB753;
 }
 
 @media (max-width:576px) {
