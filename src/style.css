@@ -1,4 +1,6 @@
-
+:root {
+    --primary-color: #FBB753;
+}
 html h1, h3, p , .top-links{
     font-family: 'Azeret Mono', monospace;
 }
@@ -22,12 +24,12 @@ p {
 }
 .emoji-main {
     font-size: 70px;
-    border: solid 4px #FBB753;
+    border: solid 4px var(--primary-color);
     border-radius: 4px;
     padding: 22px;
 }
 .learn-more-link {
-    color: #FBB753;
+    color: var(--primary-color);
     font-weight: bold;
     border: solid 2px white;
     border-radius: 4px;
@@ -37,7 +39,7 @@ p {
 }
 .learn-more-link:hover {
     cursor: pointer;
-    color: #eb920e;
+    color: #f09916;
 }
 .footer-name{
     color: #EF5F9A;
@@ -54,7 +56,7 @@ p {
     color: black;
 }
 .top-links:hover {
-    color:#FBB753;
+    color:var(--primary-color);
 }
 
 
