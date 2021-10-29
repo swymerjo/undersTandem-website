@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #6DDAE2;
+    --primary-color: #c4faff;
     --secondary-color: #ED5563;
 }
 html h1, h3, p , .top-links{
@@ -23,7 +23,7 @@ p {
 
 .container-1 {
     max-width: 500px;
-    background: #baeff3;
+    background: var(--primary-color);
     border-radius: 4px;
     padding: 50px;
     margin: 0 auto;
@@ -34,7 +34,7 @@ p {
 }
 .about-image {
   margin-left:20px;
-  background: #baeff3;
+  background: var(--primary-color);
   padding:20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -113,7 +113,7 @@ p {
 }
 .about-wrap-top {
     max-width: 600px;
-    background: #baeff3;
+    background: #c4faff;
     border-radius: 4px;
     padding-left: 20px;
     padding-right: 20px;
