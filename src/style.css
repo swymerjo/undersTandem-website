@@ -17,12 +17,16 @@ p {
     background: #ee8d96;
     
 }
+.title-main {
+    font-size: 40pt;
+}
 
 .container-1 {
     max-width: 500px;
     background: #EEEFF1;
     border-radius: 4px;
     padding: 50px;
+    margin: 0 auto;
 }
 .container-2 {
     padding-left: 20%;
@@ -107,6 +111,9 @@ p {
     }
     #contact-link {
         font-size: 10pt;
+    }
+    .title-main {
+        font-size: 20pt;
     }
     
 
