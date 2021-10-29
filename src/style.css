@@ -70,17 +70,19 @@ p {
 }
 .footer-name{
     color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .footer-link {
-    color: #6DDAE2;
+    color: black;
+    font-weight: bold;
 }
 .footer-name:hover{
     color: #ce2a3b;
 }
 
 .footer-link:hover {
-    color: #09bdca;
+    color:rgb(90, 88, 88);
 }
 .top-links-wrap {
     margin-left: 50px;
