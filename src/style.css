@@ -93,7 +93,22 @@ p {
 .top-links:hover {
     color:#ee8d96;
 }
-
+.social-icon {
+    font-size: 20pt;
+    padding-right: 20px;
+}
+.instagram-icon {
+    color: #ED5563
+}
+.twitter-icon {
+    color: #09bdca;
+}
+.linkedin-icon {
+    color: #6DDAE2
+}
+.github-icon {
+    color: #ee8d96;
+}
 
 @media (max-width:576px) {
     h2 {
