@@ -62,11 +62,12 @@ p {
 .learn-more-link-about {
     color: var(--secondary-color);
     font-weight: bold;
-    border: solid 2px white;
+    border: solid 2px snow;
     border-radius: 4px;
     padding: 6px;
     padding-right: 15px;
     padding-left: 15px;
+    background: #EEEFF1;
 }
 .footer-name{
     color: var(--secondary-color);
