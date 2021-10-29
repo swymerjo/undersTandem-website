@@ -105,9 +105,8 @@ p {
         margin: 0 auto;
         text-align: center;
     }
-    .contact-link {
+    #contact-link {
         font-size: 10pt;
-
     }
     
 
