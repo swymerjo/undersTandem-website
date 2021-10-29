@@ -23,7 +23,7 @@ p {
 
 .container-1 {
     max-width: 500px;
-    background: #EEEFF1;
+    background: #baeff3;
     border-radius: 4px;
     padding: 50px;
     margin: 0 auto;
@@ -34,7 +34,7 @@ p {
 }
 .about-image {
   margin-left:20px;
-  background: #EEEFF1;
+  background: #baeff3;
   padding:20px;
   padding-left: 50px;
   padding-right: 50px;
@@ -47,7 +47,7 @@ p {
         padding-left: 10px;
     }
 .learn-more-link {
-    color: var(--primary-color);
+    color: #ED5563;
     font-weight: bold;
     border: solid 2px white;
     border-radius: 4px;
@@ -57,7 +57,7 @@ p {
 }
 .learn-more-link:hover {
     cursor: pointer;
-    color: #09bdca;
+    color: #ce2a3b;
 }
 .learn-more-link-about {
     color: var(--secondary-color);
@@ -110,6 +110,15 @@ p {
 }
 .github-icon {
     color: #ee8d96;
+}
+.about-wrap-top {
+    max-width: 600px;
+    background: #baeff3;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    
 }
 
 @media (max-width:576px) {
