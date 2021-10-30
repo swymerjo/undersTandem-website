@@ -123,9 +123,15 @@ p {
 }
 
 @media (max-width:576px) {
+    
     h2 {
         padding-top: 20px;
         text-align: center;
+    }
+    h3{
+        font-size: 20pt;
+        text-align: center;
+        padding-top: 10px;
     }
     h4{
         text-align: center;
@@ -156,7 +162,10 @@ p {
         padding-bottom: 
             20px;
         }
-       
+      .homepage-image {
+          display: block;
+          margin: 0 auto;
+      } 
 
 }
 
