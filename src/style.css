@@ -13,6 +13,10 @@ p {
     font-size: 10pt;
     padding: 5px;
 }
+h3 {
+    font-size: 18pt;
+}
+
 .background-highlight {
     background: #ee8d96;
     
@@ -130,7 +134,6 @@ p {
         text-align: center;
     }
     h3{
-        font-size: 20pt;
         text-align: center;
         padding-top: 10px;
     }
