@@ -16,7 +16,9 @@ p {
 h3 {
     font-size: 18pt;
 }
-
+#contact-link {
+    color: #ED5563;
+}
 .background-highlight {
     background: #ee8d96;
     
@@ -126,7 +128,14 @@ h3 {
     margin: 0 auto;
     
 }
-
+.contact-wrap {
+    background: #EEEFF1;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
 @media (max-width:576px) {
     
     h2 {
